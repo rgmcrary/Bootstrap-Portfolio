@@ -1,6 +1,6 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+    color: #777777 !important;
     background-image: url("../images/nice_snow.png");
     margin: 0px;
 }
@@ -467,6 +467,7 @@ input {
         width: auto;
         margin-left: 15px;
         margin-right: 15px;
+        margin-bottom: 120px;
     }
 
     .aside {
