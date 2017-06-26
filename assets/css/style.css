@@ -27,7 +27,7 @@ body {
     color: #ffffff;
     font-weight: bold;
     background-color: #4aaaa5;
-    padding: 0px 38px 0px 30px;
+    padding: 0px 30px 0px 30px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-color: #cccccc;
@@ -37,18 +37,18 @@ body {
 .name {
     margin-top: 0px;
     font-weight: bold;
-    vertical-align: middle;
-    color: #ffffff;
+    vertical-align: middle !important;
+    color: #ffffff !important;
     font-size: 30px;
-    line-height: 80px;
+    line-height: 80px !important;
+    float: none;
 }
 
-nav {
+.navbar-right {
     text-align: center;
     line-height: 74px;
     font-size: 14px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-right: -15px;
 }
 
 .nav-index {
@@ -60,6 +60,7 @@ nav {
     line-height: 20px;
     border-right: 1px solid #eee;
     vertical-align: middle;
+    padding: 29px 10px !important;
 }
 
 .nav-portfolio {
@@ -67,10 +68,11 @@ nav {
     text-decoration: none;
     color: #777777;
     background-color: #ffffff;
-    width: 70px;
+    width: 80px;
     line-height: 20px;
     border-right: 1px solid #eee;
     vertical-align: middle;
+    padding: 29px 10px !important;
 }
 
 .nav-contact {
@@ -81,24 +83,25 @@ nav {
     width: 70px;
     line-height: 20px;
     vertical-align: middle;
+    padding: 29px 10px !important;
 }
 
 .nav-index:hover {
-    background-color: #aeb2b2;
-    color: #4aaaa5;
-    font-weight: bold;
+    background-color: #aeb2b2 !important;
+    color: #4aaaa5 !important;
+    font-weight: bold !important;
 }
 
 .nav-portfolio:hover {
-    background-color: #aeb2b2;
-    color: #4aaaa5;
-    font-weight: bold;
+    background-color: #aeb2b2 !important;
+    color: #4aaaa5 !important;
+    font-weight: bold !important;
 }
 
 .nav-contact:hover {
-    background-color: #aeb2b2;
-    color: #4aaaa5;
-    font-weight: bold;
+    background-color: #aeb2b2 !important;
+    color: #4aaaa5 !important;
+    font-weight: bold !important;
 }
 
 .article-heading {
@@ -411,7 +414,7 @@ input {
         margin-left: 15px;
         margin-right: 15px;
     }
-/*
+
     .contact {
         width: auto;
         float: none;
@@ -461,8 +464,9 @@ input {
     } 
 
     .panel-default {
-        width: 100%;
+        width: auto;
         margin-left: 15px;
+        margin-right: 15px;
     }
 
     .aside {
@@ -490,9 +494,7 @@ input {
 
 
 
-
 @viewport {
     zoom: 1.0;
     width: extend-to-zoom;
 }    
-*/

@@ -12,18 +12,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
+
             <div class="navbar-header">
-                <h1 class="name">Rich McRary</h1>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="right-navbar"> 
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand name">Rich McRary</a>
             </div>
-            <nav class="nav pull-right">
-                <a class="nav-index" href="index.html" title="About">About</a>
-                <a class="nav-portfolio" href="portfolio.html" title="Portfolio">Portfolio</a>
-                <a class="nav-contact" href="contact.html" title="Contact">Contact</a>
-            </nav>
+
+            <div class="collapse navbar-collapse navbar-right" id="right-navbar">
+                <div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="nav-index" href="index.html" title="About">About</a></li>
+                        <li><a class="nav-portfolio" href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                        <li><a class="nav-contact" href="contact.html" title="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
+
     <div class="container">
         <div class="row">
             <div class="col-md-7 article">
